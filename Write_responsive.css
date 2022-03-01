@@ -1,0 +1,74 @@
+@media(max-width:1000px){
+    .wrapper{
+        width: 85%;
+        padding: 0;
+    }
+    header{
+        display: block;
+    }
+    .header-logo{
+        margin-bottom: 20px;
+    }
+    .item-search{
+        position: absolute;
+        right: 0;
+    }
+    .item-last{
+        margin: 0;
+    }
+    .chapter{
+        display: block;
+    }
+    .chapter-right{
+        width: 100%;
+        margin-bottom: 100px;
+    }
+    .pagenumber{
+        display: block;
+    }
+    .footer-above{
+        display: block;
+    }
+    .profile{
+        width:100%;
+        margin-bottom: 100px;
+    }
+    .profile-above{
+        width:40%;
+    }
+    .footer-right{
+        width:100%;
+        display:flex;
+        flex-direction:column;
+      }
+    .footer-content{
+        width:100%;
+        margin-bottom: 100px;
+      }
+      .center-content_footer{
+          padding: 0;
+      }
+      footer input{
+        position: absolute;
+        left:0;
+        bottom:0;
+        padding:12px;
+      }
+      .footer-bottom{
+          display: block;
+      }
+      .footer-bottom p{
+          margin-top: 30px;
+      }
+}
+
+@media(max-width:800px){
+    .burger-icon{
+        display: block;
+    }
+    .nav-list{
+        display: none;
+    }
+
+
+}
